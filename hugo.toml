@@ -1,0 +1,34 @@
+baseURL = 'https://chiken.github.io/'
+languageCode = 'en-au'
+enableEmoji = true
+title = 'I am chiken'
+theme = 'github-style'
+enableRobotsTXT = true
+
+[params]
+  author = 'chiken'
+  description = 'I am chiken'
+  github = 'chiken'
+  url = 'https://chiken.dev'
+  keywords = 'blog, chiken, AI, GenAI'
+  rss = true
+  lastmod = false
+  enableSearch = true
+  favicon = '/images/header-icon.png'
+  avatar = '/images/avatar.png'
+  headerIcon = '/images/header-icon.png'
+  custom_css = ["css/custom.css"]
+
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':default']
+
+[privacy]
+  [privacy.googleAnalytics]
+    disabled = false
+    respectDoNotTrack = true
+    anonymizeIP = true
+    useSessionStorage = true
+
+[services]
+  [services.googleAnalytics]
+    id = '#{GA}#'

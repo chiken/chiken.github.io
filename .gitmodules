@@ -1,0 +1,4 @@
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:chiken/github-style.git
+	branch = master
